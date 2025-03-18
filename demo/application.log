@@ -1,0 +1,35 @@
+2025-01-21T09:30:53.106+05:30  INFO 5880 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 22 with PID 5880 (C:\Users\ASUS\Desktop\TEST\OOPCW\demo\target\classes started by ASUS in C:\Users\ASUS\Desktop\TEST\OOPCW\demo)
+2025-01-21T09:30:53.145+05:30  INFO 5880 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-01-21T09:30:56.415+05:30  INFO 5880 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-21T09:30:56.664+05:30  INFO 5880 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 2 JPA repository interfaces.
+2025-01-21T09:30:58.690+05:30  INFO 5880 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-21T09:30:58.736+05:30  INFO 5880 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-21T09:30:58.737+05:30  INFO 5880 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-01-21T09:30:59.213+05:30  INFO 5880 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-21T09:30:59.214+05:30  INFO 5880 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5907 ms
+2025-01-21T09:30:59.383+05:30  INFO 5880 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-21T09:31:02.253+05:30  INFO 5880 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ticketdb user=SA
+2025-01-21T09:31:02.257+05:30  INFO 5880 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-21T09:31:02.296+05:30  INFO 5880 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ticketdb'
+2025-01-21T09:31:03.559+05:30  INFO 5880 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-21T09:31:04.534+05:30  INFO 5880 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-01-21T09:31:04.710+05:30  INFO 5880 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-21T09:31:08.113+05:30  INFO 5880 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-21T09:31:09.429+05:30  INFO 5880 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-21T09:31:15.342+05:30  INFO 5880 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-21T09:31:15.922+05:30  INFO 5880 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-21T09:31:21.035+05:30  WARN 5880 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-21T09:31:26.483+05:30  INFO 5880 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-21T09:31:26.511+05:30  INFO 5880 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 36.012 seconds (process running for 42.467)
+2025-01-21T09:34:24.568+05:30  INFO 5880 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-21T09:34:24.678+05:30  INFO 5880 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-21T09:34:24.684+05:30  INFO 5880 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-21T09:34:24.700+05:30  INFO 5880 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-21T09:34:24.707+05:30  INFO 5880 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
