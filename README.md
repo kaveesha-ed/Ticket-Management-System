@@ -1,4 +1,4 @@
-# Ticket Management System 🎟️
+# Real Time Ticket Management System 🎟️
 
 ## Description
 This is a ticket management system designed to handle customer support tickets efficiently. It consists of a **CLI-based system**, a **Spring Boot backend**, and a **React frontend** for user interaction.
